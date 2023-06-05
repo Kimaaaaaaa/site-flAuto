@@ -1,0 +1,202 @@
+.gradient {
+    background: linear-gradient(to right, #031055, #ffffff);
+}
+
+header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid black 1px;
+}
+
+@font-face {
+    font-family: 'AlexBrush';
+    src: url('font/AlexBrush-Regular.ttf') format('truetype');
+}
+
+.FlAuto {
+    font-family: 'AlexBrush', sans-serif;
+    margin-top : 7px;
+}
+
+
+.image-container {
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+
+
+.navbar.navbar-expand-lg {
+    background: linear-gradient(to right, #031055, #ffffff);
+
+}
+
+
+.nav-item {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-right: 50px;
+    color : white;
+    font-weight: bold;
+
+}
+
+
+
+
+.navbar-nav .nav-link {
+    white-space: nowrap;
+
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.principal-menu {
+    background: linear-gradient(to right, #031055, #ffffff);
+    height: 100%;
+}
+
+
+
+.nav-item .nav-item-1 {
+    margin-left: 50px;
+    color: white;
+}
+
+.nav-item .nav-item-2 {
+    margin-left: 10px;
+    color: white;
+}
+.nav-item .nav-item-3 {
+    margin-left: 10px;
+    color: white;
+}
+.nav-item .nav-item-4 {
+    margin-left: 10px;
+    color: white;
+}
+.nav-item .nav-item-5 {
+    margin-left: 10px;
+    color: white;
+}
+.nav-item .nav-item-6 {
+    margin-left: 10px;
+    margin-right: 50px;
+    color: white;
+}
+
+
+
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #031055, #ffffff);
+    border-top: solid black 1px;
+
+}
+
+.btn {
+    margin: 5px;
+}
+
+.card-row {
+    display: flex;
+    background: linear-gradient(to right, #031055, #ffffff);
+}
+
+.card {
+    flex: 1;
+    margin-right: 50px;
+    /* Espacement entre les cartes */
+}
+
+.card:last-child {
+    margin-right: 0;
+    /* Supprimer la marge à droite de la dernière carte */
+}
+
+.logo{
+    margin-right : 50px;
+    position : flex;
+    width: 175%;
+}
+
+.titleContent{
+    border-bottom: solid 1px black;
+}
+
+b{
+    color:#031055;
+}
+
+.card.cardHoraire{
+    width : 25%;
+    border-bottom : #031055 solid 3px;
+    border-left   : #031055 solid 3px;
+    border-right  : rgb(143, 143, 143) solid 1px;
+    border-top    : rgb(143, 143, 143) solid 1px;
+}
+
+.card.cardAnnonces{
+    border : 1px solid black;
+}
+
+.activites{
+    border: solid 1px rgb(201, 201, 201);
+}
+
+.assurances{
+    border: solid 1px rgb(201, 201, 201);
+}
+
+.btn.dropdown-toggle{
+    background-color: #031055;
+    box-shadow : 1px 1px 1px 1px #031055;
+}
+
+.card-row.cardInfo{
+    display: flex;
+}
+
+.card-title{
+    border-bottom : 1px solid black;
+}
+
+.cardInfo-1{
+    border-top : 50px solid #031055;
+}
+
+.cardInfo-2{
+    border-top : 50px solid #031055;
+}
+
+.cardInfo-3{
+    border-top : 50px solid #031055;
+}
+
+.cardInfo-4{
+    border-top : 50px solid #031055;
+    margin-left: 0;
+}
+
+.card-img-bottom{
+    width : 50%;
+}
+
+.cardLink{
+    text-decoration: none;
+}
+
+.card-title{
+    text-decoration : none;
+    color : black;
+}
+.plusdinfo{
+    color : #031055;
+}
