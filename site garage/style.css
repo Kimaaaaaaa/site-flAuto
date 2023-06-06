@@ -123,8 +123,8 @@ header {
 
 .logo{
     margin-right : 50px;
-    position : flex;
-    width: 175%;
+    position : relative;
+    max-width: 80%;
 }
 
 .titleContent{
@@ -199,4 +199,58 @@ b{
 }
 .plusdinfo{
     color : #031055;
+}
+
+#photoGarage{
+    height : 20%;
+}
+
+.carouselGarage{
+    width : 750px;
+    height : 400px;
+    margin-left : 21%;
+
+}
+
+.hover-button{
+    transition: 2s;
+}
+
+.hover-button:hover{
+    background : #031055;
+}
+
+.imgCarrosserie {
+    float: right;
+    margin-top : -13%;
+    margin-right : 15%;
+    max-width: 20%;
+}
+
+#titreAssurance, #phrasedaccroche, .underline{
+    border-bottom: solid 1px rgb(143, 143, 143);
+}
+
+
+#mecanique{
+    margin-left: 0;
+    width: 25%;
+}
+
+
+
+.imgMecanique {
+    float: right;
+    margin-top : -13%;
+    margin-right : 15%;
+    max-width: 25%;
+}
+
+.custom-title{
+    color : #031055;
+}
+
+.map{
+    width : 100%;
+    border : 1px solid black;
 }
