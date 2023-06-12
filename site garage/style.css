@@ -21,19 +21,6 @@ header {
 }
 
 
-.image-container {
-    text-align: center;
-    margin-bottom: -5px;
-}
-
-
-
-.navbar.navbar-expand-lg {
-    background: linear-gradient(to right, #031055, #ffffff);
-
-}
-
-
 .nav-item {
     border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
@@ -44,21 +31,11 @@ header {
 }
 
 
-
-
-.navbar-nav .nav-link {
-    white-space: nowrap;
-
-}
-
 .nowrap {
     white-space: nowrap;
 }
 
-.principal-menu {
-    background: linear-gradient(to right, #031055, #ffffff);
-    height: 100%;
-}
+
 
 
 
@@ -79,11 +56,8 @@ header {
     margin-left: 10px;
     color: white;
 }
+
 .nav-item .nav-item-5 {
-    margin-left: 10px;
-    color: white;
-}
-.nav-item .nav-item-6 {
     margin-left: 10px;
     margin-right: 50px;
     color: white;
@@ -96,7 +70,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #031055, #ffffff);
     border-top: solid black 1px;
 
 }
@@ -107,7 +80,6 @@ header {
 
 .card-row {
     display: flex;
-    background: linear-gradient(to right, #031055, #ffffff);
 }
 
 .card {
@@ -253,4 +225,13 @@ b{
 .map{
     width : 100%;
     border : 1px solid black;
+}
+
+
+.card-img-top.card-index{
+    width : 100%;
+}
+
+.card-img-top{
+    width : 20%;
 }
