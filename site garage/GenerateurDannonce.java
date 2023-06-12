@@ -8,6 +8,7 @@ import java.io.IOException;
 
 public class GenerateurDannonce{
 
+    public static String htmlCode;
     private static int averageLineLength(String filePath) throws IOException {
         RandomAccessFile file = new RandomAccessFile(filePath, "r");
         long totalLength = 0;
@@ -38,13 +39,12 @@ public class GenerateurDannonce{
         String puissanceFiscale = "";
         String couleur          = "";
         String prix             = "";
-        String imgPath           = "";
 
         PrintWriter pw = new PrintWriter(new FileWriter("vente/vente.html", true));
         try (Scanner sc = new Scanner(new File(nom_fichier))) 
         {
             cpt = 0;
-            while(sc.hasNextLine() && cpt<8)
+            while(sc.hasNextLine() && cpt<7)
             {   
                 System.out.println(cpt);
                 switch(cpt)
@@ -104,16 +104,6 @@ public class GenerateurDannonce{
                             System.out.println(prix);
                         }
                         break;     
-                    }
-
-                    case 7 :{
-                        if (sc.hasNextLine()) {
-                            imgPath = sc.nextLine();
-                            System.out.println(imgPath);
-                    }
-                    break;  
-                        
-                    
                     } 
 
                     
@@ -145,11 +135,11 @@ public class GenerateurDannonce{
                                 System.out.println(puissanceFiscale);
                                 System.out.println(couleur);
                                 System.out.println(prix);
-                                System.out.println(imgPath);
 
 
                                 pw.println("\n\n<div class=\"card-row\">\n");
                                 pw.println("  <div class=\"card cardAnnonces\">\n");
+                                pw.println("    <img src=\"../images/" + nomVehicule + " alt= "+ nomVehicule + "class=\"card-img-top\">\n");
                                 pw.println("    <div class=\"card-body\">\n");
                                 pw.println("      <h5 class=\"card-title\">" + nomVehicule + "</h5>\n");
                                 pw.println("      <p class=\"card-text\">\n");
@@ -160,7 +150,6 @@ public class GenerateurDannonce{
                                 pw.println("        Couleur :" +  couleur + "\n");
                                 pw.println("      </p>\n");
                                 pw.println("      <div class=\"card-footer\">\n");
-                                pw.println("           <img src=" + imgPath  + " alt= "+ nomVehicule + "class=\"card-img-bottom imgVente\">\n <br>");
                                 pw.println("        <strong><b>" + prix + "</b></strong>\n");
                                 pw.println("      </div>\n");
                                 pw.println("    </div>\n");

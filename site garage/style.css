@@ -226,3 +226,12 @@ b{
     width : 100%;
     border : 1px solid black;
 }
+
+
+.card-img-top.card-index{
+    width : 100%;
+}
+
+.card-img-top{
+    width : 20%;
+}
