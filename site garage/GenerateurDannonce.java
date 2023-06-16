@@ -143,7 +143,7 @@ public class GenerateurDannonce{
                                 pw.println("    <div class=\"card-body\">\n");
                                 pw.println("      <h5 class=\"card-title\">" + nomVehicule + "</h5>\n");
                                 pw.println("      <p class=\"card-text\">\n");
-                                pw.println("        Année : "+ annee +"<br>\n");
+                                pw.println("        Annee : "+ annee +"<br>\n");
                                 pw.println("        Km : " + km + "<br>\n");
                                 pw.println("        Energie :" + energie + "<br>\n");
                                 pw.println("        Puissance fiscale :" + puissanceFiscale + "<br>\n");
